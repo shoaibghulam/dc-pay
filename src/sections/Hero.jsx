@@ -24,7 +24,7 @@ export default function Hero() {
         <p className="text-lg font-normal">Stay connected to your crypto with our fully secure and decentralized Wallet</p>
       <img src={btcimg} className='w-14 md:w-20 absolute left-3 md:-left-[20%] top-[52%] md:top-1/2' alt="" />
       <img src={solimg} className='block md:hidden w-12 md:w-20 absolute right-[15%] md:-right-[20%] top-0 md:top-1/2' alt="" />
-      <img src={ethimg} className='w-14 md:w-20 absolute left-[15%] md:-right-[20%] top-0 md:top-1/2' alt="" />
+      <img src={ethimg} className='w-14 md:w-20 absolute left-[15%] md:left-full top-0 md:top-1/2' alt="" />
       <div className='flex space-y-5 pb-10 md:pb-0 md:space-y-0 flex-col md:flex-row items-center justify-center gap-x-5 mt-10'>
         <Link to="#">
         <img src={playstoreimg} className='w-[200px] hover:opacity-85' alt="" />
