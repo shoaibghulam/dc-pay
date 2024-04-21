@@ -9,9 +9,9 @@ export default function Hero() {
       <div className="container px-2 md:px-20 m-auto">
         {/* ellipse start */}
       
-        <div className="hidden md:block m-auto w-[700px] h-[700px] bg-[#a290b03e] absolute  left-0 right-0 bottom-0 -z-10 rounded-full">
-        <div className="m-auto w-[600px] h-[600px] bg-[#a290b015] absolute  left-0 right-0 bottom-10 -z-[9] flex items-center justify-center rounded-full">
-        <div className="m-auto w-[400px] h-[400px] bg-[#a290b015] absolute  left-0 right-0 bottom-15 -z-[9] flex items-center justify-center rounded-full"></div>
+        <div className="hidden md:block m-auto w-[700px] h-[700px] bg-[#a290b02a] absolute  left-0 right-0 bottom-0 -z-10 rounded-full">
+        <div className="m-auto w-[600px] h-[600px] opacity-70 bg-[#cdcdcd2b] absolute  left-0 right-0 bottom-10 -z-[9] flex items-center justify-center rounded-full">
+        <div className="m-auto w-[400px] h-[400px] opacity-50 bg-[#d0afe917] absolute  left-0 right-0 bottom-15 -z-[9] flex items-center justify-center rounded-full"></div>
 
         </div>
         </div>
