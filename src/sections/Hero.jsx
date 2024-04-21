@@ -5,11 +5,11 @@ import { NavbarMenu } from '../components/menu/NavbarMenu';
 export default function Hero() {
   return (
     <>
-        <div className="relative ">
-      <div className="container px-2 md:px-20 m-auto">
+        <div className="relative " id="home">
+      <div className="container px-2 md:px-20 m-auto" id="about">
         {/* ellipse start */}
       
-        <div className="hidden md:block m-auto w-[700px] h-[700px] bg-[#a290b02a] absolute  left-0 right-0 bottom-0 -z-10 rounded-full">
+        <div className="hidden md:block m-auto w-[800px] h-[800px] bg-[#a290b02a] absolute  left-0 right-0 bottom-0 top-7 -z-10 rounded-full">
         <div className="m-auto w-[600px] h-[600px] opacity-70 bg-[#cdcdcd2b] absolute  left-0 right-0 bottom-10 -z-[9] flex items-center justify-center rounded-full">
         <div className="m-auto w-[400px] h-[400px] opacity-50 bg-[#d0afe917] absolute  left-0 right-0 bottom-15 -z-[9] flex items-center justify-center rounded-full"></div>
 
@@ -19,7 +19,7 @@ export default function Hero() {
         {/* menu start */}
        <NavbarMenu />
     {/* menu end */}
-     <div className="relative pt-16 md:pt-0 text-center text-primary  mt-5 md:mt-5 w-full md:w-2/3 m-auto">
+     <div className="overflow-hidden relative pt-16 md:pt-0 text-center text-primary  mt-5 md:mt-5 w-full md:w-2/3 m-auto">
         <h1 className="text-3xl md:text-5xl leading-[40px] md:leading-[60px] font-bold ">The Most Easiest, Fast & Secure Cryptocurrency Wallet</h1>
         <p className="text-lg font-normal">Stay connected to your crypto with our fully secure and decentralized Wallet</p>
       <img src={btcimg} className='w-14 md:w-20 absolute left-3 md:-left-[20%] top-[52%] md:top-1/2' alt="" />
@@ -34,9 +34,10 @@ export default function Hero() {
         </Link>
       </div>
      </div>
-     <div className="relative w-full md:w-9/12 m-auto flex items-center justify-center pb-10">
+     <div className="  relative w-full md:w-9/12 m-auto flex items-center justify-center pb-10">
         <img src={mobilesimg} className='w-full h-full' alt="" />
         <img src={solimg} className='hidden md:block w-10 md:w-20 z-30 absolute -left-2 md:-left-[20%] top-1/2' alt="" />
+    <div className="absolute py-10 bg-white w-full h-32 -z-10 -bottom-[15%]"></div>
      </div>
 
       </div>

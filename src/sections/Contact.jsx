@@ -3,10 +3,10 @@ import { rectangleimg } from "../utils/images";
 export default function Contact() {
   return (
     <>
-     <div className="overflow-hidden bg-[#F9F9FA] relative py-10 container px-2 md:px-20 m-auto bg-no-repeat bg-cover " style={{
+     <div id="contactus" className="overflow-hidden bg-[#F9F9FA] relative py-10 container px-2 md:px-20 m-auto bg-no-repeat bg-cover " style={{
          backgroundImage:`url(${rectangleimg})`
      }}>
-        <div className="bg-white p-10">
+        <div className="bg-white p-10" >
             <h1 className="text-2xl text-primary font-bold">Have any question? <br/>Contact Us</h1>
  </div>
  {/* <img src={rectangleimg} className="w-full absolute -z-3 top-1/2" /> */}

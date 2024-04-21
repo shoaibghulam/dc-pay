@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { facebookicon, logoimg, telegramicon, xicon } from "../utils/images";
+import ScrollItem from "../components/menu/ScrollItem";
 
 export default function Footer() {
   return (
@@ -11,10 +12,12 @@ export default function Footer() {
             </div>
             <div className="w-full flex flex-col justify-center items-center md:w-9/12">
                 <div className="flex flex-col md:flex-row space-y-10">
+
                     <div className="flex flex-wrap just-center gap-x-5 text-md font-open-sans text-primary">
-                        <Link to="#" className="hover:font-semibold ease-in hover:ease-out duration-500">Home</Link>
-                        <Link to="#" className="hover:font-semibold ease-in hover:ease-out duration-500">Features</Link>
-                        <Link to="#" className="hover:font-semibold ease-in hover:ease-out duration-500">About</Link>
+                    <ScrollItem id="home" title="Home" lassName="hover:font-semibold ease-in hover:ease-out duration-500"/>
+        <ScrollItem id="features" title="Features" lassName="hover:font-semibold ease-in hover:ease-out duration-500"/>
+        <ScrollItem id="about" title="About" lassName="hover:font-semibold ease-in hover:ease-out duration-500"/>
+                     
                         <Link to="#" className="hover:font-semibold ease-in hover:ease-out duration-500">Terms & Condition</Link>
                         <Link to="#" className="hover:font-semibold ease-in hover:ease-out duration-500">Privacy Policy</Link>
                     

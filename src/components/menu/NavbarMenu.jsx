@@ -1,6 +1,7 @@
 import {  Navbar } from "flowbite-react";
 import { Link } from "react-router-dom";
 import { logoimg } from "../../utils/images";
+import ScrollItem from "./ScrollItem";
 
 export function NavbarMenu() {
     const theme={
@@ -55,17 +56,19 @@ export function NavbarMenu() {
       <img src={logoimg}/>
       </Navbar.Brand>
       <div className="flex items-center gap-x-3 md:order-2">
-      <Link to="#" className="hidden md:block"> Contact Us </Link>
+      <ScrollItem id="contactus" title="Contact Us"   className="hidden md:block"/>
+    
                 <Link to="#" className='hidden md:block py-2 px-5 bg-primary rounded-md text-white text-md hover:bg-primary/80'> Download</Link>
               
                  
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
-        <Link to="#">Home</Link>
-        <Link to="#">Features</Link>
-        <Link to="#">About</Link>
-        <Link to="#">Contact Us</Link>
+        <ScrollItem id="home" title="Home"/>
+        <ScrollItem id="features" title="Features"/>
+        <ScrollItem id="about" title="About"/>
+        <ScrollItem id="contactus" title="Contact Us"  className="block md:hidden"/>
+      
       </Navbar.Collapse>
     </Navbar>
   );

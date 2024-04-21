@@ -5,9 +5,9 @@ import { icon1, icon2, icon3, iphonepro } from "../utils/images";
 export default function Features() {
   return (
     <>
-     <div className="relative py-10 container px-2 md:px-20 m-auto">
+     <div className="relative py-10 container px-2 md:px-20 m-auto" id="features">
         <div className="w-full md:w-9/12 m-auto text-center">
-            <h1 className="text-4xl font-bold text-primary">Key Features</h1>
+            <h1 className="text-4xl font-bold text-primary pb-10">Key Features</h1>
             <p className="text-2xl font-monto font-light">More Than A Wallet, Your Decentralized Connection to Your Assets</p>
             <p className="pt-4 text-[#696768] font-light text-xl font-open-sans">
             We understand that you have a wide range of crypto wallets to choose from. But there’s only one wallet with a decentralized on-ramp and access to the features crypto newcomers and veterans want most: Bettatrade. Our wallet also features more user-friendly accessibility options like dark/light mode.
