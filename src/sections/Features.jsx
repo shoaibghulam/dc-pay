@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import FeatureCard from "../components/card/FeatureCard";
-import { icon1, icon2, icon3, iphonepro } from "../utils/images";
+import { icon1, icon2, icon3,  } from "../utils/images";
 import Swiper from "../components/Swiper";
+
 
 export default function Features() {
   return (
@@ -36,7 +37,7 @@ export default function Features() {
                 
                 />
             </div>
-            <div className="p-20 w-full md:w-1/2 text-center">
+            <div className="p-3 md:p-20 w-full md:w-1/2 text-center">
              <Swiper />
             </div>
         </div>
